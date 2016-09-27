@@ -1,0 +1,13 @@
+<div id="{{id}}" class="deal-item">
+	<div class="deal-title">
+		<strong class="deal-title-main">{{title.main}}</strong>
+		<em class="deal-title-sub">{{title.sub}}</em>
+	</div>
+	<p class="dell-price">
+		<span class="dell-price-origin">정가 <span class="dell-price-value">{{priceValue price.origin}}</span><span class="dell-price-unit">원</span></span>
+		<strong class="dell-price-discount"><span class="dell-price-discount-value">{{priceValue price.discount.value}}</span><span class="dell-price-discount-unit">{{price.discount.unit}} 할인 </span></strong>
+		<strong class="dell-price-result"><span class="dell-price-value">{{priceValue price.result}}</span><span class="dell-price-unit">원</span> </strong>
+	</p>
+	<img class="deal-img" width="{{image.size.width}}" height="{{image.size.height}}" src="{{image.src}}" alt="{{title.main}}"/>
+	<a class="dell-link" href="{{link}}">{{link}}</a>
+</div>

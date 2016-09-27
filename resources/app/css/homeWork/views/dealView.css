@@ -1,0 +1,40 @@
+/* 공통 */
+.dealview {display:block;}
+.dealview-selecter { list-style: none; margin: 0; padding: 0; border-bottom:1px solid #ccc;}
+.dealview-selecter > li {float: left;}
+.dealview-selecter-link {display:block; padding: 10px 20px; margin-right:5px; margin-bottom: -1px; border:1px solid #ccc; background-color: #e3e3e3; text-decoration: none; color:#999;}
+.dealview-selecter-link.selected {border-bottom:1px solid #fff; background-color: #fff; color: #333;}
+.dealview-content {margin-top: 10px;}
+.dealview-content .dealview-title {display: none;}
+
+/* gellery view */
+.dealview-gellery {width:100%; overflow: hidden; margin: 0; padding: 0;}
+.dealview-gellery .dealview-li {float:left; overflow: hidden; width:150px; height: 150px;}
+.dealview-gellery .deal-item {position: relative; overflow: hidden; margin: 0 10px 10px 0; border: 1px solid #aaa;}
+.dealview-gellery .deal-title {position: absolute; top: 0; left: 0; margin:5px; padding:5px; line-height: 11px; opacity: 0.8; background-color: #000; color:#fff;}
+.dealview-gellery .deal-title-main {display:block; font-size: 13px; line-height: 13px; letter-spacing: -2px;}
+.dealview-gellery .deal-title-sub {padding-top: 5px; display: block; font-style: normal; font-size: 11px;}
+.dealview-gellery .dell-price {display: none;}
+.dealview-gellery .dell-link {position: absolute; top: 0; left: 0; display:block; width:100%; height: 100%; text-indent:-9999px;}
+.dealview-gellery .dell-link:hover {background-color: #000; opacity: 0.5;}
+.dealview-gellery .deal-img {width: 100%; height: 100%;}
+
+/* list view */
+.dealview-list {margin: 0; padding: 0;}
+.dealview-list .dealview-li {width:100%; border-bottom: 1px solid #e3e3e3; margin-top: 10px;}
+.dealview-list .deal-item {position: relative; overflow: hidden; margin: 0 10px 10px 0;}
+.dealview-list .deal-title {padding-left: 60px;}
+.dealview-list .deal-title-main {display:block; color: #333;}
+.dealview-list .deal-title-sub {font-style: normal; font-size: 11px; color: #666;}
+.dealview-list .dell-price {margin: 0; padding-left: 60px; font-size: 11px; color:#999; letter-spacing: -1px;}
+.dealview-list .dell-price-origin {text-decoration: line-through;}
+.dealview-list .dell-price-discount {color:blue;}
+.dealview-list .dell-price-result {color:red; font-size: 13px;}
+.dealview-list .dell-link {position: absolute; top: 0; left: 0; display:block; width:100%; height: 100%; text-indent:-9999px;}
+.dealview-list .dell-link:hover {}
+.dealview-list .deal-img {position: absolute; top: 0; left: 0; width: 50px; height: 50px; border: 1px solid #aaa;}
+
+/* clearfix 추가 */
+.clearfix:before,
+.clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}

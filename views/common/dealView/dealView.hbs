@@ -1,0 +1,32 @@
+<div class="dealview"
+    data-component="dealview">
+    <ul id="dealview-selecter"
+        class="dealview-selecter clearfix">
+        {{#each dealViewData}}
+            <li>
+                <a class="dealview-selecter-link {{this.selected}}"
+                   data-select-view="{{this.viewType}}"
+                   data-cart-view-type="{{this.layerType}}"
+                   href="#dealview-ul">
+                    {{this.titel}}
+                </a>
+            </li>
+        {{else}}
+            <li>No content</li>
+        {{/each}}
+    </ul>
+    <div id="dealview-content"
+         class="dealview-content"
+         data-controller = 'homeWork/controller'>
+        <h1 class="dealview-title">상품 목록</h1>
+        <ul id="dealview-ul"
+            class="dealview-gellery mustGetRequestData"
+            data-request='{{{json dealview_API}}}'>
+            <li class="dealview-li">
+                <div class="deal-loading">
+                    상품을 준비 중입니다.
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

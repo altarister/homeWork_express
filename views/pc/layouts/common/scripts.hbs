@@ -1,0 +1,30 @@
+<script type="text/javascript">
+    if( ! window.console ){ console = { log : function(){} }; }
+    window.VALVE_BASEURL = "{{!vAssetLibUrl 'cdnjs'}}";
+</script>
+
+<!--[if IE 7 ]> assetScript "vendor/json2/json2.js" <![endif]-->
+
+<!--<script type="text/javascript" src="/vendor/require.js/2.1.17/require.js"></script>-->
+<!--<script type="text/javascript" src="/vendor/requirejs-config.js"></script>-->
+
+<script data-main="/dist/js/app"
+        src="/vendor/requirejs/require.2.1.11.min.js"></script>
+<!--<script src="vendor/requirejs-config.js"></script>-->
+
+<!--<script type="text/javascript">-->
+    <!--var memeboxRequire = require.config({-->
+        <!--context: 'rocketpay',-->
+        <!--baseUrl: "",-->
+        <!--waitSeconds: 1000,-->
+        <!--paths: REQUIRE_JS_PATHS,-->
+        <!--shim : REQUIRE_JS_SHIM,-->
+        <!--map : REQUIRE_JS_MAP-->
+    <!--});-->
+
+    <!--//memeboxRequire(['es5-shim', 'vendor/pc.commons.chunk'], function () {-->
+        <!--memeboxRequire(['path_pc/initialize'], function (initialize) {-->
+            <!--initialize();-->
+        <!--});-->
+    <!--//});-->
+<!--</script>-->

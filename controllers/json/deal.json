@@ -1,0 +1,96 @@
+[
+	{
+		"id" : "tempID0",
+		"title" : {
+			"main" : "[지미추] 우먼 EDT 특가★",
+			"sub" : "도시적이며 관능적인 여성미의 향기"
+		},
+		"link" : "http://http://www.memebox.com/page/13286",
+		"image" : {
+			"src" : "http://img2.memebox.com/static/contents/img/upload/image_20150528102017_LhMVJ7dMux.jpg",
+			"size" : {
+				"width" : "200",
+				"height" : "200"
+			}
+		},
+		"price" : {
+			"discount" : {"value" : "53", "unit" : "%"},
+			"origin" : "64000"
+		}
+	},
+	{
+		"id" : "tempID1",
+		"title" : {
+			"main" : "[프리메라] 기초 모음 15종",
+			"sub" : "매끄럽고 맑은 피부로 가꿔줄 기초 라인!"
+		},
+		"link" : "http://www.memebox.com/page/40506",
+		"image" : {
+			"src" : "http://img2.memebox.com/static/contents/img/upload/image_20160803180548_pD4VHuuSMR.jpg",
+			"size" : {
+				"width" : "200",
+				"height" : "200"
+			}
+		},
+		"price" : {
+			"discount" : {"value" : "17", "unit" : "%"},
+			"origin" : "25000"
+		}
+	},
+	{
+		"id" : "tempID2",
+		"title" : {
+			"main" : "[케라시스] 살롱 앰플 & 에센스",
+			"sub" : "모발 타입과 헤어 스타일에 따른 맞춤 앰플 클리닉"
+		},
+		"link" : "http://www.memebox.com/page/40511",
+		"image" : {
+			"src" : "http://img2.memebox.com/static/contents/img/upload/image_20160804091622_VCOZdSvQHZ.jpg",
+			"size" : {
+				"width" : "200",
+				"height" : "200"
+			}
+		},
+		"price" : {
+			"discount" : {"value" : "70000", "unit" : "원"},
+			"origin" : "76400"
+		}
+	},
+	{
+		"id" : "tempID3",
+		"title" : {
+			"main" : "[바디판타지] 바디 스프레이 비누향 4종",
+			"sub" : "방금 샤워하고 나온 듯한 깨끗한 비누 향기"
+		},
+		"link" : "http://www.memebox.com/page/40446",
+		"image" : {
+			"src" : "http://img2.memebox.com/static/contents/img/upload/image_20160803181637_vRuTxXS0Oe.jpg",
+			"size" : {
+				"width" : "200",
+				"height" : "200"
+			}
+		},
+		"price" : {
+			"discount" : {"value" : "17", "unit" : "%"},
+			"origin" : "12000"
+		}
+	},{
+		"id" : "tempID4",
+		"title" : {
+			"main" : "[없었던일로] 마음껏 먹고 없었던일로!",
+			"sub" : "체지방, 이제 없었던 일로 하세요!"
+		},
+		"link" : "http://www.coupang.com/deal.pang?coupang=61130860",
+		"image" : {
+			"src" : "http://img2.memebox.com/static/contents/img/upload/image_20150706134341_2m0D5I3Z7M.jpg",
+			"size" : {
+				"width" : "200",
+				"height" : "200"
+			}
+		},
+		"price" : {
+			"discount" : {"value" : "41", "unit" : "%"},
+			"origin" : "32000"
+		}
+	}
+]
